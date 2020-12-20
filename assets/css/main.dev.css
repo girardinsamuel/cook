@@ -1,0 +1,7 @@
+.nuxt-content-editor {
+  @apply rounded-md bg-gray-800 p-4 !important ;
+
+  &:focus {
+    @apply outline-none;
+  }
+}
