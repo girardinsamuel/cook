@@ -25,6 +25,28 @@ ingredients:
     qty: 25
     unit: g
     part: pate_brisee
+  - name: Farine
+    qty: 250
+    unit: g
+    part: pate_brisee
+  - name: Zest citron
+    qty: 1
+    part: pate_brisee
+  - name: Sel
+    qty: 1
+    part: pate_brisee
+    unit: pincée
+  - name: Jus de citron
+    qty: 8
+    unit: cl
+    part: appareil_citron
+  - name: Oeufs
+    qty: 2
+    part: appareil_citron
+  - name: Beurre doux
+    unit: g
+    qty: 100
+    part: appareil_citron
   - name: Sucre semoule
     qty: 100
     unit: g
@@ -33,11 +55,19 @@ ingredients:
     qty: 80
     unit: g
     part: meringue
+  - name: Blancs d'oeufs
+    qty: 90
+    unit: g
+    part: meringue
+  - name: Zest de citron
+    qty: 0.5
+    part: meringue
 ---
 
 ## Préparation
 
 ### Pâte brisée
+Préchauffez le four à 180°C.
 Crémer à la feuille au robot le beurre pommade et le sucre glace et les zestes, ajoutez l’œuf,  la poudre d’amandes, le sel et la farine. Ne travaillez pas trop la pâte. Quand le mélange est homogène, aplatissez-le  finement  au sur du papier cuisson. Foncez la pâte dans un moule. Enfournez. Faire cuire pendant 15 minutes à 180°.  Le  fond doit être doré. Retirer la plaque du four et placer la pâte sur une volette. Laisser refroidir. Abricoter le fond au pinceau pour préserver le croustillant de la pâte plus tard.
 
 ### Appareil au citron
