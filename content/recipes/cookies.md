@@ -2,7 +2,6 @@
 title: Cookies
 description: Learning how to use @nuxt/content to create a blog
 img: concorde.jpeg
-alt: my first blog post
 base: false
 ---
 # Cookies

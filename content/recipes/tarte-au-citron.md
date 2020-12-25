@@ -1,7 +1,6 @@
 ---
 title: Tarte au citron
 description: Tarte au citron meringuée sur pâte sablée
-alt: Photo tarte au citron
 base: false
 category: Tarte
 qty:
