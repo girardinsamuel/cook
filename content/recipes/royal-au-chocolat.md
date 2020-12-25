@@ -83,6 +83,7 @@ Faites fondre le chocolat au bain-marie (doucement) puis rajoutez le beurre et m
 - Utilisez du chocolat de qualité et une crème entière liquide > 30%MG.
 - Placer bol et fouet au congélateur 20mn avant et la crème liquide 10mn avant.
 - Les proportions du lait sont ici en grammes !
+- Pour avoir une hauteur de mousse plus réglementaire (4/5cm), les proportions pour le cercle de 16 ou 18 cm seraient (40 cl crème liquide, 160g chocolat et 60g lait).
 
 1. Verser le chocolat noir dans un saladier (qui servira au mélange final) et le faire fondre dans un four à micro-ondes, par étapes de 20 à 30 secondes en mélangeant régulièrement avec une spatule jusqu'à ce qu'il soit totalement fondu (ou le faire au bain-marie).
 2. Monter la crème liquide très froide en crème fouettée souple (ne pas trop la battre, pour faciliter l'incorporation) et réservez de côté.
