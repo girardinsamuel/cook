@@ -8,7 +8,7 @@
         Imprimer (TO DO)
       </button>
     </div>
-    <p><span class="font-medium text-base">Proportions : </span> <Badge>{{ qty.value }} {{ qty.unit }}</Badge></p>
+    <p><span class="text-base font-medium">Proportions : </span> <Badge>{{ qty.value }} {{ qty.unit }}</Badge></p>
     <div class="flex items-center">
       <button
         v-for="factor in factors"
@@ -23,17 +23,22 @@
         <svg class="-ml-0.5 mr-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
         RAZ
       </button>
-      <input v-model="newQty" type="number" class="block w-20 py-2 truncate px-3 leading-5 placeholder-gray-500 border border-transparent text-white focus:text-white focus:border-gray-700 rounded-md focus:outline-none focus:bg-gray-900 bg-gray-800">
+      <input v-model="newQty" type="number" class="block w-20 px-3 py-2 leading-5 text-white placeholder-gray-500 truncate bg-gray-800 border border-transparent rounded-md focus:text-white focus:border-gray-700 focus:outline-none focus:bg-gray-900">
     </div>
 
-    <ul class="parts">
+    <ul v-if="parts" class="parts">
       <li v-for="(label, key) in parts" :key="key">
-        <span class="font-medium text-base">{{ label }}</span>
+        <span class="text-base font-medium">{{ label }}</span>
         <ul>
           <li v-for="ing in quantitiesGrouped(key)" :key="`${key}-${ing.name}`" class="text-xs text-gray-500">
             {{ ing.qty }} {{ ing.unit }} {{ ing.name }}
           </li>
         </ul>
+      </li>
+    </ul>
+    <ul v-else>
+      <li v-for="ing in list" :key="ing.name" class="text-xs text-gray-500">
+        {{ ing.qty }} {{ ing.unit }} {{ ing.name }}
       </li>
     </ul>
   </div>
