@@ -16,7 +16,7 @@
     "@nuxtjs/pwa": "^3.3.3",
     "@tailwindcss/typography": "^0.2.0",
     "autoprefixer": "^9.8.6",
-    "core-js": "^3.6.5",
+    "core-js": "^3.9.0",
     "marked": "^1.2.7",
     "nuxt": "^2.14.7",
     "theme-colors": "0.0.5",
