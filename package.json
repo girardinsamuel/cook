@@ -20,7 +20,7 @@
     "marked": "^1.2.7",
     "nuxt": "^2.14.7",
     "theme-colors": "0.0.5",
-    "vue-clipboard2": "^0.3.1"
+    "vue-clipboard2": "^0.3.3"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",
