@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.11.1",
-    "@nuxtjs/google-fonts": "^1.2.0",
+    "@nuxtjs/google-fonts": "^2.0.0",
     "@nuxtjs/pwa": "^3.3.3",
     "@tailwindcss/typography": "^0.2.0",
     "autoprefixer": "^9.8.6",
