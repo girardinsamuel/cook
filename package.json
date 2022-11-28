@@ -18,7 +18,7 @@
     "autoprefixer": "^9.8.6",
     "core-js": "^3.6.5",
     "marked": "^1.2.7",
-    "nuxt": "^2.14.7",
+    "nuxt": "^3.0.0",
     "theme-colors": "0.0.5",
     "vue-clipboard2": "^0.3.1"
   },
